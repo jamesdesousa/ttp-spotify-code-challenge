@@ -20,6 +20,9 @@ This starts the backend server on whichever port you have open, likely it will b
 This starts the react app, also on whichever port you have open. If you have no ports running except the server, this will likely appear at http://localhost:3001/
 
 
+## Authors 
+James DeSousa
+@james.desousa45@gmail.com
 
 ## Learn More
 
