@@ -1,5 +1,5 @@
 # Cat-erest
-
+Challenge #1: Infinite-scroll
 This project is my version of Pinterest's infinite scrolling feature, featuring mostly pictures of cute cats.
 
 If you would like to try it out for yourself, just clone this repo! You will need an updated version of npm and React, as well as json-server acting as the backend. 
