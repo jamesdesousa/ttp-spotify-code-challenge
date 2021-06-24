@@ -7,6 +7,7 @@ function App() {
   const[posts, setPosts] = useState([])
   const[endOfPosts, setEndOfPosts] = useState(false)
   const[numberRendered, setNumberRendered] = useState(10)
+  //renders the next 10 items when end of posts is changed to false
   useEffect(() => {
     setLoading(true)
     fetch(`http://localhost:3000/object/?_limit=${numberRendered}`)

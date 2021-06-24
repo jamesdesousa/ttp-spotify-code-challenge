@@ -1,8 +1,9 @@
-import React, { useState, useCallback, useRef } from "react";
+import React, { useCallback, useRef } from "react";
 import PostCard from "./PostCard";
 
 
 function PostList({posts, loading, setEndOfPosts, endOfPosts, numberRendered}) {
+    //useRef and useCallback used with IntersectionObserver to identify when the last item on the page is visible on screen with isIntersecting 
    const observer = useRef()
    const lastPost = useCallback(post => {
        if (loading) return 

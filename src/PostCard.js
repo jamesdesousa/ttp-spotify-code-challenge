@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 
 function PostCard({post, lastPost, index, numberRendered, posts}) {
-    console.log(numberRendered)
+    //identifying the last post rendered thats visible on screen
   return (
     <li className='card'>
         {index === posts.length -1 ?
